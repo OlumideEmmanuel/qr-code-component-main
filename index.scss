@@ -17,7 +17,7 @@ body{
     text-align: center;
     position: absolute; 
     top: 25%; 
-    left: 50%; 
+    left: 45%; 
     margin-top: -50px;
     margin-left: -100px;
     
@@ -46,6 +46,26 @@ body{
     }
 
 }
+
+@media only screen and (max-width: 375px) {
+    
+    .qr{
+        position: absolute;
+        background-color: white;
+        height: 420px;
+        width: 280px;
+        border-radius: 20px;
+        text-align: center;
+        position: absolute; 
+        top: 25%; 
+        left: 38%; 
+        margin-top: -50px;
+        margin-left: -100px; 
+    }
+
+}
+
+
 
 
 
