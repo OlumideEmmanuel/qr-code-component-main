@@ -4,10 +4,10 @@ body {
   background-color: #d6e2f0;
 }
 
-.qr {
+.code {
   position: absolute;
   background-color: white;
-  height: 420px;
+  height: 460px;
   width: 280px;
   border-radius: 20px;
   text-align: center;
@@ -18,31 +18,31 @@ body {
   margin-left: -100px;
 }
 
-.qr img {
-  margin-top: 10px;
+.code img {
+  margin-top: 0px;
   width: 260px;
   border-radius: 10px;
 }
 
-.qr .improve {
-  margin: 20px;
-  font-size: 15px;
+.code .improve {
+  margin: 30px;
+  font-size: 19px;
   font-weight: bolder;
   font-family: 'Outfit', sans-serif;
   text-align: center;
 }
 
-.qr .improve span {
+.code .improve span {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Outfit', sans-serif;
 }
 
 @media only screen and (max-width: 375px) {
-  .qr {
+  .code {
     position: absolute;
     background-color: white;
-    height: 420px;
+    height: 460px;
     width: 280px;
     border-radius: 20px;
     text-align: center;
